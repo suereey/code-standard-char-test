@@ -1,0 +1,18 @@
+name: Check line length
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  check-line-length:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Run line-length check script
+        run: |
+          chmod +x scripts/check-line-length.sh
+          ./scripts/check-line-length.sh
