@@ -73,6 +73,10 @@ git push
 - Go to your repo’s “Actions” tab; you should see the new workflow.
 - When you open or update a pull request (or push commits), the workflow will run.
 
+Example of checking:
+![alt text](images/checking.png)
+
 Example of pass:
-![sample-pass](image.png)
+![alt text](images/pass.png)
+
 Example of failure:
