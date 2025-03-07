@@ -80,3 +80,7 @@ Example of pass:
 ![alt text](images/pass.png)
 
 Example of failure:
+![alt text](images/fail.png)
+
+**When it fails, click on Details to see where the failure occurred.**
+![alt text](images/fail-details.png)
