@@ -2,17 +2,16 @@
 This repository enforces a coding standard: no line of code should exceed 80 characters. We use a shell script to detect long lines and a GitHub Actions workflow to automatically check each push and pull request.
 
 See Section 3.3 for details. 
-Examples of this Git push being checked 
+
+**Examples of this Git push being checked**
 ![alt text](images/checking.png)
 
-Example of this Git push failing
+**Example of this Git push failing**
 ![alt text](images/pass.png)
 
-Example of a successful Git push.
+**Example of a successful Git push.**
 ![alt text](images/fail.png)
 
-**When it fails, click on Details to see where the failure occurred.**
-![alt text](images/fail-details.png)
 
 ## 1. Script Location and Usage
 Location:
